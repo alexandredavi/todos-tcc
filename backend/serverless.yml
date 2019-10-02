@@ -2,7 +2,7 @@ service: todos
 
 provider:
   name: aws
-  runtime: nodejs4.3
+  runtime: nodejs10.x
   region: us-east-1
   stage: dev
   iamRoleStatements:
